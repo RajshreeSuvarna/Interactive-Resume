@@ -1,8 +1,3 @@
-h3{
-    margin-left: -20px; 
-    line-height: 0px;
-}
-
 .list{
 cursor: pointer;
 font-size: 16px;
@@ -12,8 +7,9 @@ font-family:'Times New Roman', Times, serif
 }
 
 .list:hover{
-color: blue
+color: blue;
 }
+
 
 h4{
 background-color: rgb(61, 61, 224);
@@ -21,6 +17,12 @@ color: white;
 padding: 5px 0px 5px 0px;
 font-size: 18px;
 font-family:'Times New Roman', Times, serif;
+}
+
+h3{
+    margin-left: -20px; 
+    line-height: 0px;
+    font-size: 21px;
 }
 
 
@@ -34,13 +36,17 @@ table{
     margin-top: 0px;
     cursor: pointer;
     padding:4px 8px;
-    background-color: rgb(51, 51, 173);
     color: white;
+    background-color:lightslategray;
     border-radius: 4px;
-    border: none;
-
+    border: 2px solid gray;
 }
 
+.back:hover{
+    background-color:rgb(15, 112, 209);
+    color: white;
+    border: 2px solid rgb(15, 112, 209);
+}
 
 .sec{
 margin-top: 40px;
